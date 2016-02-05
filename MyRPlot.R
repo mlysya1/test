@@ -5,4 +5,4 @@ x<-plot(mtcars$mpg, mtcars$hp)
 
 save.image()    
 
-x<-summary(mtcars)
+summary(mtcars)
