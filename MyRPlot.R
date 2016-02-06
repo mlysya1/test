@@ -6,3 +6,5 @@ x<-plot(mtcars$mpg, mtcars$hp)
 save.image()    
 
 x<-summary(mtcars)
+x
+save(x, file = "X.RData")
